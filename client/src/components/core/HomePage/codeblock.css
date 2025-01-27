@@ -1,0 +1,17 @@
+.codeblock1{
+    background: linear-gradient(138deg, #1FA2FF 0%, #12D8FA 50%, #A6FFCB 100%);
+    filter: blur(100px);
+    height: 150px;
+    width: 150px;
+}
+.codeblock2{
+    background: linear-gradient(138deg, #d4ed56 0%, #f7e588 50%, #ffdd61 100%);
+    filter: blur(100px);
+    height: 150px;
+    width: 150px;
+}
+.code-border{
+    border: 2px solid white;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom,#ffffff38,#ffffff00);
+}

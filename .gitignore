@@ -1,0 +1,34 @@
+
+# dependencies
+/client/node_modules
+/server/node_modules
+/.pnp
+.pnp.js
+
+# Environment variables
+/client/.env
+/server/.env
+
+# testing
+/coverage
+
+# production
+/client/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+.vscode
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/client/package-lock.json
+pnpm-lock.yaml
+
+# generated PDF
+/server/output.pdf

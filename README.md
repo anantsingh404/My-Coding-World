@@ -1,26 +1,100 @@
-# My Coding World
-A comprehensive platform built with the MERN stack (MongoDB, Express, React, Node) that integrates resources from various learning platforms, including courses, tutorials, projects, and books—all in one place. Designed for a seamless computer science learning experience.
+# Demo Video: https://tinyurl.com/EduNxtVid
 
-## Overview
-MyCoding World is designed to streamline computer science learning by offering a single destination for diverse educational resources. The platform is built to be accessible, easy to use, and comprehensive, meeting the needs of both beginners and advanced learners.
+
+# EduNxt
+
+EduNxt is a fully functional educational platform built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The platform allows users to create, consume, and rate educational content. It also integrates AI-powered features using OpenAI NLP models, including transcription of video lectures, generating concise notes in PDF format, and enabling interactive learning through a chatbot.
 
 ## Features
-* Centralized Learning Hub: Access courses, video tutorials, projects, and books.
-* Search Integration: Leveraging the Google Search API for relevant resource discovery.
-* User-Friendly Interface: Built with HTML, CSS, JavaScript, and Bootstrap.
-* Responsive Design: Works seamlessly across all devices.
-* Centralized Resources: Courses, tutorials, projects, books, and more.
-* Search & Filter: Find resources by topic or keyword.
-* User Profiles: Personalized dashboard, progress tracking, and favorites.
-* Admin Panel: Resource and user management.
-Responsive Design: Accessible on all devices.
-## Technologies
-* Frontend: React, Redux, Tailwind CSS/Bootstrap
-* Backend: Node.js, Express
-* Database: MongoDB
-* Authentication: JWT
-* Deployment: Docker (optional), compatible with cloud platforms
+
+- **Educational Content Creation & Consumption:** Users can create educational content and share it with others. Consumers can access the content and engage with it.
+- **AI-powered Note Generation:** The AI transcribes video lectures, generates summarized notes, and outputs them in a downloadable PDF format.
+- **Interactive Chatbot:** A chatbot that enables users to interact with educational content for an enhanced learning experience.
+- **Admin Panel:** Admins can manage users, content, and other aspects of the platform.
+
+## Tech Stack
+
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **AI & APIs:** OpenAI NLP, Assembly API, Cloudinary, Razorpay
+- **Authentication:** JWT (JSON Web Tokens)
+- **Payment Integration:** Razorpay
+- **File Hosting:** Cloudinary
+
 ## Prerequisites
-* Node.js (v14+)
-* MongoDB
-* (Optional) Docker for containerization
+
+- Node.js
+- MongoDB
+- React.js
+- Razorpay API Key (for payment gateway)
+- Cloudinary API Key (for media storage)
+- OpenAI API Key (for AI functionalities)
+
+## Setup
+
+### Clone the Repository
+
+Run the following commands in your terminal:
+
+``` git clone https://github.com/TanishqRinjay/EduNxt.git ```
+
+``` cd eduNxt ```
+
+
+### Install Dependencies
+
+#### Client (Frontend):
+
+1. Navigate to the `client` folder:
+2. ``` cd client ```
+3. Install the dependencies:
+4. ``` npm install ```  
+5. Create a `.env` file in the `client` folder and add the following configuration:
+   ```
+     REACT_APP_BASE_URL = http://localhost:4000/api/v1
+   ```
+
+
+
+#### Server (Backend):
+
+1. Navigate to the `server` folder:
+2. ``` cd server ```
+3. Install the dependencies:
+4. ``` npm install ```
+3. Create a `.env` file in the `server` folder and add the following configuration:
+```  
+# Mail Setup
+MAIL_USER = 
+MAIL_HOST = 
+MAIL_PASSWORD = 
+
+# JWT Secret
+JWT_SECRET = 
+
+# Razorpay
+RAZORPAY_KEY = 
+RAZORPAY_SECRET = 
+
+# Cloudinary
+CLOUDINARY_CLOUD_NAME = 
+CLOUDINARY_API_KEY = 
+CLOUDINARY_API_SECRET = 
+FOLDER_NAME = 
+
+# Assembly API
+ASSEMBLY_API_KEY =
+
+# OpenAI API
+
+OPENAI_API_KEY = 
+
+# MongoDB
+PORT = 4000
+MONGO_URL = 
+# MONGO_URL = 
+
+```
+
+
