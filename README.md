@@ -26,4 +26,4 @@ My Coding World is a fully functional educational platform built using the MERN 
 - React.js
 - Razorpay API Key (for payment gateway)
 - Cloudinary API Key (for media storage)
-- OpenAI API Key (for AI functionalities
+- OpenAI API Key (for AI functionalities)
